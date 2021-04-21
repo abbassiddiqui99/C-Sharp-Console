@@ -14,6 +14,8 @@ namespace C_Sharp_Console
                 int num2 = Convert.ToInt32(Console.ReadLine());
                 System.Console.WriteLine(num1/num2);
             }
+            // Individual exception checking 
+            // try System.Exception it will catch all exception error
             catch (System.DivideByZeroException)
             {
                 System.Console.WriteLine("Attempted to divide by zero");                
