@@ -10,6 +10,8 @@ namespace C_Sharp_Console
             
             System.Console.WriteLine(StaticAttributes.songCount);
             System.Console.WriteLine(check.getStaticAttribute());
+
+            
         }
     }
 }
